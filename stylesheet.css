@@ -1,0 +1,161 @@
+html {
+    background-color: rgba(122, 191, 191, .5);
+    font-family: 'Caveat', cursive;
+    font-family: 'Cormorant Garamond', serif;
+
+}
+
+header {
+    background-color:white;
+}
+
+main {
+    background-color: #f2f2f2;
+}
+
+nav {
+    background-color:white;
+    padding: 10px;
+}
+
+nav ul {
+    margin: 5px;
+    list-style: none;
+}
+
+nav li {
+    display:inline-block;
+    position:relative;
+    text-align: center;
+    padding-top:5px;
+}
+
+nav li img  {
+    display:inline-block;
+    position:relative;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+.icon-tabler-tools-kitchen {
+    display:inline-block;
+    vertical-align: middle;
+    padding: 20px;
+    background-color:#EB5428;
+}
+
+.icon-tabler-user-circle {
+    background-color:#EB5428;
+    float: left;
+    vertical-align: middle;
+}
+
+form {
+   display:flex;
+   justify-content: center;
+   align-items: center;
+}
+
+menu {
+    display: inline-block;
+    border: 1px solid;
+    stroke-width: 5px;
+    color:#EB5428;
+}
+
+menu li {
+    text-decoration: none;
+}
+
+.image {
+    align-items: center;
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
+.menu img {
+    max-width: 100px;
+    max-height:100px ;
+}
+
+.details {
+    background-color:#0D0D0D;
+    color:#7ABFBF;
+    text-align: center;
+}
+
+.details dl {
+    display:grid;
+    grid-template-columns: repeat(2,auto);
+    grid: gap 10px;
+}
+
+.details dt {
+    font-weight: bold;
+}
+
+.details dd {
+    margin:0;
+}
+
+#ingredients h2 {
+    margin:0;
+    padding:20px;
+}
+
+#directions h2 {
+    display: flex;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#sides {
+    background-color: #7ABFBF;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#sides h3 {
+    position: relative;
+    text-align:center;
+}
+
+
+footer {
+    background-color:white;
+}
+
+footer img {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+
+footer p {
+    font-weight:bold;
+    float: left;
+    padding-left: 20px;
+}
+
+footer a {
+    float: right;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+ 
